@@ -27,7 +27,7 @@ h1 {
     font-size: 24px;
 }
 
-button{
+button {
     font-family: "VT323", "Courier New", Courier, monospace;
     background:rgb(68, 226, 68);
     color:rgb(1, 31, 10);
@@ -41,7 +41,11 @@ button{
 
 
 
-button:hover{
+button:hover {
     color:rgb(68, 226, 68);
     background:rgb(1, 31, 10);
+}
+
+button:focus {
+    outline:0;
 }
